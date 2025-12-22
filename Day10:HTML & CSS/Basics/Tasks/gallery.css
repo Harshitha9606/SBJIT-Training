@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:aliceblue;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+
+.gallery {
+  display: flex;
+  gap: 20px; 
+}
+
+.gallery img {
+  width: 200px;        
+  height: 150px;       
+  object-fit: cover;
+  border: 3px solid cyan; 
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+
+.gallery img:hover {
+  border-color: orange;
+}
